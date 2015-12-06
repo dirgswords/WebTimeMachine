@@ -1,0 +1,112 @@
+@font-face {
+	font-family: pub;
+	src: url('Parisish.ttf');
+}
+
+body{ 
+background: #000;
+background-repeat:no-repeat;
+background-attachment:fixed;
+font-size: 10px;
+}
+
+img {
+background: none;
+border: 0;
+width: 80%;
+max-height: 500px;
+z-index: 300;
+
+}
+
+.upperimg{
+width: 75px;
+z-index:301;
+position: absolute;
+left: 10px;
+top: 25px;
+}
+
+#presenttime {
+background: #929397;
+height: 50px;
+}
+
+#paperheader {
+background-image: url("../images/paper.jpg");
+height: 900px; 
+position: relative;
+}
+
+
+#paperheader h1 {
+font-family: pub;
+font-size: 85px;
+background-color: transparent;
+color: black;
+}
+
+#paperheader h2 {
+font-family: pub;
+font-size: 20px;
+background-color: transparent;
+color: black;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 90%;               
+  background-color:#000;
+  height: 5px;
+}
+
+#col1 hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 90%;               
+  background-color:#000;
+  height: 1px;
+  z-index: -300;
+}
+input[type="text"] {
+	width: 90%;
+	background-image: url("../images/paper.jpg");
+    display: block;
+    border: 1px dotted;
+    font-family: pub;
+    text-transform: uppercase;
+	font-size: 45px;
+	color: black;
+}
+
+textarea {
+	background-image: url("../images/paper.jpg");
+    display: block;
+    border: 1px dotted;
+    font-family: pub;
+	font-size: 22px;
+	color: black;
+	resize: none;
+	text-transform: uppercase;
+	width: 365px;
+    height: 450px;
+}
+
+input[type="button"] {
+	background-image: url("../images/paper.jpg");
+    width: 58px;
+    height: 98px;
+    display: inline;
+    background-color: #4f1019;
+}
+input[type="file"] {
+left: 30px;
+}
+
+#footer {
+background-image: url("../images/paper.jpg");
+height: 20px;
+}

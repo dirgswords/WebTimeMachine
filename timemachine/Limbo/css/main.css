@@ -1,0 +1,224 @@
+body{ 
+background-image: url(../img/stars.jpg);
+background-repeat:repeat;
+background-attachment:fixed;
+z-index:-20000;
+}
+
+
+h1 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 20px;
+    text-align:center;
+}
+
+h2 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 176px;
+    color: #fff;
+    line-height: 60px;
+    background: red;
+    text-align:center;
+}
+
+h3 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 20px;
+    line-height: 20px;
+    background: #5e9ca0;
+    text-align:center;
+}
+
+h4 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 40px;
+    text-align:center;
+}
+
+img {
+    border:none;
+}
+
+a{
+font-size: 30px;
+border:none;
+}
+a:link {color:#ffffff;}      /* unvisited link */
+a:visited {color:#ffffff;}  /* visited link */
+a:hover {color:#ffffff;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+#container {
+background-color : transparent;
+overflow: hidden;
+}
+
+#firstly {
+background-color : transparent;
+height: 700px;
+
+}
+
+#firstly p, #footer p  {
+padding: 2em;
+}
+
+#spacer {
+	background-color : transparent;
+	height: 4500px;
+}
+
+#firstly2 {
+	background-color : transparent;
+	height: 6000px;
+}
+
+#navi {
+background: #342800;
+height: 50px;
+color: white;
+font-family: 'Tangerine', serif;
+font-size: 12px;
+z-index:99;
+
+}
+
+#navi a  {
+height: 0px;
+}
+
+#subheader {
+background: #342800;
+background-image: url(../img/stars.jpg);
+height: 960px;
+}
+    
+#secondary1, #secondary2, #secondary3  {
+background: #e2da99;
+height: 685px;
+}
+
+#secondary1 p, #secondary2 p, #secondary3 p  {
+padding: 1em;
+color: #5e9ca0;
+}
+
+#col1, #col2  {
+background: white;
+}
+
+#footer {
+background-color : transparent;
+height: 600px;
+z-index:1000000000000;
+}
+
+#superfooter {
+background: white;
+height: 20px;
+}
+
+	#thing {
+		width:32px;
+		height:32px;
+		border-radius:16px;
+		background:green;
+		z-index:104;
+	}
+	
+	#thing2 {
+		width:50px;
+		height:50px;
+		border-radius:25px;
+		background:red;
+		z-index:101;
+	}
+	
+	#thing3 {
+		width:32px;
+		height:32px;
+		border-radius:16px;
+		background:blue;
+		z-index:102;
+	}
+	
+	#thing4 {
+		width:64px;
+		height:64px;
+		border-radius:32px;
+		background:yellow;
+		z-index:103;
+	}
+
+#progress {
+	height:2%;
+	background:#444;
+	bottom:0;
+	z-index:200;
+}
+
+#scrollbar {
+	position:fixed;
+	right:2px;
+	height:50px;
+	width:6px;
+	background:#444;
+	background:rgba(0,0,0,0.6);
+	border:1px solid rgba(255,255,255,0.6);
+	z-index:300;
+	border-radius:3px;
+}
+
+.skrollr-desktop #scrollbar {display:none;}
+
+	
+#transform {
+	
+	text-align:center;
+	/*margin-left:-35%;
+	text-align:center;
+	font-size:150%;*/
+	z-index:49;
+
+	.transform-origin(70%, 70%);
+}
+
+#properties {
+	width:100%;
+	height:100%;
+	padding-top:10%;
+	text-align:center;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#properties p{
+
+color:red;
+}
+
+#easing_wrapper {
+	width:100%;
+	height:100%;
+}
+
+#easing {
+	top:10%;
+	width:50%;
+	z-index:101;
+}
+
+.drop {
+	background:#09f;
+	font-weight:bold;
+	padding:1em;
+}
+
+

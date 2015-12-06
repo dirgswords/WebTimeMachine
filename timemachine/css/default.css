@@ -1,0 +1,187 @@
+body{ 
+background: #000;
+background-repeat:no-repeat;
+background-attachment:fixed;
+font-family: '', serif;
+font-size: 10px;
+}
+
+@font-face {
+	font-family: alarm_font;
+	src: url('alarmclock.ttf');
+}
+
+img {
+    border:none;
+}
+
+a{
+font-size: 30px;
+border:none;
+}
+
+a:link {color:#ffffff;}      /* unvisited link */
+a:visited {color:#ffffff;}  /* visited link */
+a:hover {color:#ffffff;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+
+#container {
+background: #929397;
+overflow: hidden;
+}
+
+#header {
+background: #000;
+height: 40px;
+}
+
+#subheader {
+height: 20px;
+}
+
+#redheader1, #redheader2, #redheader3, #redheader4, #redheader5, #redheader6 {
+height: 30px;
+}
+
+#redheader1 h1, #redheader3 h1, #redheader5 h1 {
+font-size: 15px;
+background-color: red;
+color: white;
+width: 100px;
+}
+
+#firstly1, #firstly2, #firstly3, #firstly5, #firstly6, #firstly8, #firstly9, #firstly10, #firstly11{
+background: #4f1019;
+height: 100px;
+}
+
+#firstly1 h1, #firstly2 h1, #firstly3 h1, #firstly5 h1, #firstly6 h1, #firstly8 h1, #firstly9 h1, #firstly10 h1, #firstly11 h1  {
+font-family: alarm_font;
+font-size: 75px;
+color: red;
+}
+
+input:focus {outline: none;}
+
+input[type="text"] {
+    width: 58px;
+    height: 98px;
+    margin-left: 10px;
+    display: block;
+    border: 0px solid;
+    background-color: #4f1019;
+    font-family: alarm_font;
+	font-size: 75px;
+	color: red;
+	border-style: hidden;
+}
+
+input[type="textbox"] {
+    width: 800px;
+    height: 20px;
+    margin-left: 10px;
+    display: inline;
+    border: 1px dotted;
+    background-color: #fff;
+    font-size: 12px;
+
+}
+
+input[type="submit"] {
+  background-color: #fff;
+  border-color: #000;
+  border: 5px dotted;
+  height: 75px;
+  font-size: 12px;
+  white-space: normal;
+}
+
+#firstly4, #firstly7, #firstly12{
+background: #929397;
+height: 100px;
+}
+
+#destinationtime {
+background: #929397;
+height: 50px;
+}
+
+#destinationtime h1 {
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 15px;
+background-color: #000;
+color: white;
+width: 200px;
+}
+
+#greenheader {
+height: 50px;
+}
+
+#secondly1, #secondly2, #secondly3, #secondly5, #secondly6, #secondly8, #secondly9, #secondly10, #secondly11  {
+background: #00531a;
+height: 100px;
+}
+
+#secondly1 h1, #secondly2 h1, #secondly3 h1, #secondly5 h1, #secondly6 h1, #secondly8 h1, #secondly9 h1, #secondly10 h1, #secondly11 h1  {
+font-family: alarm_font;
+font-size: 75px;
+color: #1ec11a;
+}
+
+#secondly4, #secondly7, #secondly12{
+background: #929397;
+height: 100px;
+}
+
+#presenttime {
+background: #929397;
+height: 50px;
+}
+
+#presenttime h1 {
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 15px;
+background-color: #000;
+color: white;
+width: 150px;
+}
+
+#thirdly1, #thirdly2, #thirdly3, #thirdly5, #thirdly6, #thirdly8, #thirdly9, #thirdly10, #thirdly11  {
+background: #978800;
+height: 100px;
+}
+
+#thirdly1 h1, #thirdly2 h1, #thirdly3 h1, #thirdly5 h1, #thirdly6 h1, #thirdly8 h1, #thirdly9 h1, #thirdly10 h1, #thirdly11 h1  {
+font-family: alarm_font;
+font-size: 75px;
+color: #e3c914;
+}
+
+#thirdly4, #thirdly7, #thirdly12{
+background: #929397; 
+height: 100px;
+}
+
+#lasttime {
+background: #929397;
+height: 50px;
+}
+
+#lasttime h1 {
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+font-size: 15px;
+background-color: #000;
+color: white;
+width: 250px;
+}
+
+#footer {
+background: #929397;
+height: 20px;
+}
